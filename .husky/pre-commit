@@ -1,0 +1,5 @@
+echo "Run pint formatter..."
+./vendor/bin/pint -v
+
+echo "Running unit and feature tests..."
+./vendor/bin/sail test
